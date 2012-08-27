@@ -49,11 +49,6 @@
     <string-array translatable="false" name="config_tether_usb_regexs">
         <item>"usb0"</item>
     </string-array>
-
-    <string-array translatable="false" name="config_tether_upstream_regexs">
-    	<item>"wlan0"</item>
-    	<item>"rmnet\\d"</item>
-    </string-array>
     
     <string-array translatable="false" name="config_tether_wifi_regexs">
         <item>"wl0.1"</item>
@@ -67,9 +62,8 @@
         <item>"mobile_dun,4,0,4"</item>
         <item>"mobile_hipri,5,0,3"</item>
     </string-array>
-    <bool translatable="false" name="config_tether_dun_required">false</bool>
-
-    <bool name="config_automatic_brightness_available">true</bool>
+	
+	<bool name="config_automatic_brightness_available">true</bool>
 
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
@@ -118,17 +112,8 @@
         <item>20</item>
     </integer-array>
 
-    <!-- Vibrator pattern for feedback about on a key release -->
-    <integer-array name="config_virtualKeyUpPattern">
-        <item>20</item>
-        <item>30</item>
-    </integer-array>
-
     <!-- Enables SIP on WIFI only -->
     <bool name="config_sip_wifi_only">false</bool>
-
-    <!-- Enable the screen-on animation -->
-    <bool name="config_enableScreenOnAnimation">true</bool>
 
     <!-- Enable the screen-off animation -->
     <bool name="config_enableScreenOffAnimation">true</bool>
