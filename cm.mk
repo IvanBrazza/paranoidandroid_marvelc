@@ -8,7 +8,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/htc/marvel_pa/device_marvelc.mk)
+$(call inherit-product, device/htc/marvelc_pa/device_marvelc.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := marvelc
