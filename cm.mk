@@ -17,7 +17,7 @@ PRODUCT_BRAND := htc_marvelc
 PRODUCT_MODEL := marvelc
 PRODUCT_MANUFACTURER := HTC
 
-PRODUCT_VERSION_DEVICE_RELEASE := BETA1
+PRODUCT_VERSION_DEVICE_RELEASE := ALPHA2
 PRODUCT_VERSION_DEVICE_SPECIFIC := -PARODUDE-$(PRODUCT_VERSION_DEVICE_RELEASE)
 
 # CM_RELEASE := true
@@ -34,7 +34,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=dudeman1996 \
     ro.goo.rom=marvelc_paranoidandroid \
     ro.goo.board=marvelc \
-    ro.goo.version=1
+    ro.goo.version=2
 PRODUCT_COPY_FILES += \
     device/htc/marvelc_pa/app/GooManager.apk:/system/app/GooManager.apk
 
